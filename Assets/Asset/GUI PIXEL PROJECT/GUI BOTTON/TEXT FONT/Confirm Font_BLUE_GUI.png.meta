@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Confirm Font_BLUE_GUI_0: 8553542998275541134
+      Confirm Font_BLUE_GUI_1: 2632654213699411718
+      Confirm Font_BLUE_GUI_2: -3096806304052364600
+      Confirm Font_BLUE_GUI_3: 6477555980856711828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
