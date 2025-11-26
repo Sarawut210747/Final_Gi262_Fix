@@ -1,4 +1,6 @@
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -32,7 +34,9 @@ public class PlayerStats : MonoBehaviour
 
         // อัปเดต Stat UI
         RightPanelStats.UpdateStats(this);
+        ApplySpec();
 
+        UpdateStatsUI();
     }
 
     // ----------- PORTRAIT สำหรับ UI -----------
@@ -64,8 +68,7 @@ public class PlayerStats : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Player died!");
-        // ใส่ระบบตายทีหลังได้
+        SceneManager.LoadScene("GameOver");
     }
     public void ApplySpec()
     {
