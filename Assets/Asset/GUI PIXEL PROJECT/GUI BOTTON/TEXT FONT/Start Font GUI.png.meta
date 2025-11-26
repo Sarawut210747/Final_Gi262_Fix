@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Start Font GUI_0: 6516508282120932015
+      Start Font GUI_1: 8069809113810809467
+      Start Font GUI_2: -5146830388089310542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Option Font GUI_0: 4559999420535591528
+      Option Font GUI_1: 6086358102568662174
+      Option Font GUI_2: 6456384477905097889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

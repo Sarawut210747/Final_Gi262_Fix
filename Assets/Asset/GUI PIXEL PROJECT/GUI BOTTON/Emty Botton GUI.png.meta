@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Emty Botton GUI_0: 7074988929345298632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

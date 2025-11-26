@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GUI TRACK NAME1 BG_0: 8313799965283776179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,1167 @@
+fileFormatVersion: 2
+guid: c3be8373e28ef1c4ca50d038652e0f8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5863034424356123561
+    second: Gothic Shadow_0
+  - first:
+      213: -5933572516027424900
+    second: Gothic Shadow_1
+  - first:
+      213: 5374756437220243111
+    second: Gothic Shadow_2
+  - first:
+      213: -3034980593867433145
+    second: Gothic Shadow_3
+  - first:
+      213: 5607231000116785618
+    second: Gothic Shadow_4
+  - first:
+      213: -5720438750656771188
+    second: Gothic Shadow_5
+  - first:
+      213: -5848594746687268670
+    second: Gothic Shadow_6
+  - first:
+      213: -1497960535124382387
+    second: Gothic Shadow_7
+  - first:
+      213: 3035779735275188390
+    second: Gothic Shadow_8
+  - first:
+      213: 2588965322655262741
+    second: Gothic Shadow_9
+  - first:
+      213: -2320987521433797378
+    second: Gothic Shadow_10
+  - first:
+      213: 6319959862957327265
+    second: Gothic Shadow_11
+  - first:
+      213: -689553718661681852
+    second: Gothic Shadow_12
+  - first:
+      213: -1769041138759531066
+    second: Gothic Shadow_13
+  - first:
+      213: 4120855611435936619
+    second: Gothic Shadow_14
+  - first:
+      213: -8597805080040031909
+    second: Gothic Shadow_15
+  - first:
+      213: 7999343919030217348
+    second: Gothic Shadow_16
+  - first:
+      213: -2119032869177847274
+    second: Gothic Shadow_17
+  - first:
+      213: 5670965079377003697
+    second: Gothic Shadow_18
+  - first:
+      213: 4041418893018494000
+    second: Gothic Shadow_19
+  - first:
+      213: -3765711780632989268
+    second: Gothic Shadow_20
+  - first:
+      213: -194846771510835490
+    second: Gothic Shadow_21
+  - first:
+      213: -3023833649011164089
+    second: Gothic Shadow_22
+  - first:
+      213: 2358796607073345246
+    second: Gothic Shadow_23
+  - first:
+      213: -7721406509347508018
+    second: Gothic Shadow_24
+  - first:
+      213: 3123824390085936100
+    second: Gothic Shadow_25
+  - first:
+      213: 383578074647523777
+    second: Gothic Shadow_26
+  - first:
+      213: -6195059828859161725
+    second: Gothic Shadow_27
+  - first:
+      213: -4609969846286907750
+    second: Gothic Shadow_28
+  - first:
+      213: -8554520490187375659
+    second: Gothic Shadow_29
+  - first:
+      213: -4333699035208559380
+    second: Gothic Shadow_30
+  - first:
+      213: -3375062029781023380
+    second: Gothic Shadow_31
+  - first:
+      213: -3029622693731664387
+    second: Gothic Shadow_32
+  - first:
+      213: 5104336688444329796
+    second: Gothic Shadow_33
+  - first:
+      213: -215636592018602977
+    second: Gothic Shadow_34
+  - first:
+      213: 196897518357708934
+    second: Gothic Shadow_35
+  - first:
+      213: -3712596515784263978
+    second: Gothic Shadow_36
+  - first:
+      213: -5570397616140705884
+    second: Gothic Shadow_37
+  - first:
+      213: 2009941849832186805
+    second: Gothic Shadow_38
+  - first:
+      213: 4210121347530102524
+    second: Gothic Shadow_39
+  - first:
+      213: 6498114974373954387
+    second: Gothic Shadow_40
+  - first:
+      213: -6051684348522398834
+    second: Gothic Shadow_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gothic Shadow_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 447
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ccd56314152aea0800000000000000
+      internalID: -5863034424356123561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 450
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f1a2deb37b7ada0800000000000000
+      internalID: -5933572516027424900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 447
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b1c2c088f69a40800000000000000
+      internalID: 5374756437220243111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 451
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bd35ada3591e5d0800000000000000
+      internalID: -3034980593867433145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 451
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1f48fd2e2e0dd40800000000000000
+      internalID: 5607231000116785618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 448
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b49b3b34bec90b0800000000000000
+      internalID: -5720438750656771188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_6
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 418
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c85d78a01e95dea0800000000000000
+      internalID: -5848594746687268670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 386
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d6b5074dc263be0800000000000000
+      internalID: -1497960535124382387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 386
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a03861c591412a20800000000000000
+      internalID: 3035779735275188390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 354
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518eba87e3adde320800000000000000
+      internalID: 2588965322655262741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 391
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcf2d875223acfd0800000000000000
+      internalID: -2320987521433797378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 352
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a34c42c20205b750800000000000000
+      internalID: 6319959862957327265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 351
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dee99db863e66f0800000000000000
+      internalID: -689553718661681852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_13
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 358
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58f23057a1377e0800000000000000
+      internalID: -1769041138759531066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 319
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b605a6858303930800000000000000
+      internalID: 4120855611435936619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 320
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b593a2435d57ea880800000000000000
+      internalID: -8597805080040031909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 299
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a2af979e0630f60800000000000000
+      internalID: 7999343919030217348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_17
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 274
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612174525dea792e0800000000000000
+      internalID: -2119032869177847274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 292
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b449e191b053be40800000000000000
+      internalID: 5670965079377003697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 292
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0347be22211061830800000000000000
+      internalID: 4041418893018494000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 290
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1fddc46118dbbc0800000000000000
+      internalID: -3765711780632989268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 260
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed60776c4e3cb4df0800000000000000
+      internalID: -194846771510835490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_22
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cf0d2315f2906d0800000000000000
+      internalID: -3023833649011164089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 255
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eded00644012cb020800000000000000
+      internalID: 2358796607073345246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 260
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0f3f380bd08d490800000000000000
+      internalID: -7721406509347508018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 231
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e306c76bbd0a5b20800000000000000
+      internalID: 3123824390085936100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 231
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c17ef20a3eb25500800000000000000
+      internalID: 383578074647523777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 168
+        width: 101
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383be8298e9b60aa0800000000000000
+      internalID: -6195059828859161725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_28
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 127
+        width: 20
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a968ec679d81600c0800000000000000
+      internalID: -4609969846286907750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 196
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbb49e10fc384980800000000000000
+      internalID: -8554520490187375659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 168
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4d0fa30bb9bd3c0800000000000000
+      internalID: -4333699035208559380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 145
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c654efb37fe5921d0800000000000000
+      internalID: -3375062029781023380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 131
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd79a0363e94f5d0800000000000000
+      internalID: -3029622693731664387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 134
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fc7b89c2f36d640800000000000000
+      internalID: 5104336688444329796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_34
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 103
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14c72c79a7e10df0800000000000000
+      internalID: -215636592018602977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 39
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800edeef358bb200800000000000000
+      internalID: 196897518357708934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6735a93253a7cc0800000000000000
+      internalID: -3712596515784263978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af1040a1e8f1b2b0800000000000000
+      internalID: -5570397616140705884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 5
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3607a967fb4eb10800000000000000
+      internalID: 2009941849832186805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 5
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf612d43f0b5d6a30800000000000000
+      internalID: 4210121347530102524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353c4350421fd2a50800000000000000
+      internalID: 6498114974373954387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gothic Shadow_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf781f529140ca0800000000000000
+      internalID: -6051684348522398834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

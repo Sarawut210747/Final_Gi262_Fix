@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cancel Font_RED_GUI_0: -132280065997260440
+      Cancel Font_RED_GUI_1: 2043418564468296417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
