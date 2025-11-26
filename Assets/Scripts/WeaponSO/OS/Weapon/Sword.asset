@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325f78ab6b979d345844ad1e91dea0b3, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  weaponName: Sword
+  icon: {fileID: -10524483601426386, guid: c718867b420832c4e8d069ec60bb47c0, type: 3}
+  damageBonus: 2
+  hpBonus: 0
+  baseDamage: 10
+  attackBonus: 0
+  level: 1
+  maxLevel: 5
+  damagePerLevel: 05000000070000000a0000000d00000012000000
+  rangePerLevel:
+  - 2
+  - 3
+  - 4
