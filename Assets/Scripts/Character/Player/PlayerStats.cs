@@ -1,43 +1,51 @@
-using System.Collections.Generic;
 using UnityEngine;
-
-[System.Serializable]
-public class CharacterSpec
-{
-    public CharacterType type;
-    public float skillCooldown = 5f;
-}
 
 public class PlayerStats : MonoBehaviour
 {
-    [Header("Base Stats")]
-    public float maxHP = 100f;
-    public float currentHP = 100f;
-    public float attackDamage = 5f;
+    // ----------- ค่าพื้นฐาน -----------
+    public int maxHP = 100;
+    public int currentHP = 100;
+    public float attackDamage = 5;
     public float moveSpeed = 3f;
-
-    [Header("Level System")]
     public int level = 1;
-    public int exp = 0;
-    public int expToNextLevel = 20;
+    public float skillCooldown = 3f;
 
-    [Header("Character Data")]
-    public CharacterSpec spec;             // ← สำหรับเช็ค type และ skillCooldown
-    public Sprite characterSprite;         // ← รูปตัวละครโชว์ในหน้า Stat
-
-    public Dictionary<WeaponSO, int> weaponLevels = new Dictionary<WeaponSO, int>();
-    public Dictionary<AccessorySO, int> accessoryLevels = new Dictionary<AccessorySO, int>();
+    // ----------- CHARACTER SPEC (อ่านจาก GameSession) -----------
+    public CharacterSpecSO spec;
 
     void Start()
     {
+        CharacterSpecSO spec = GameSession.Instance.selectedCharacter;
+        if (spec == null)
+        {
+            Debug.LogError("No character selected from menu!");
+            return;
+        }
+
+        this.spec = spec;
+
+        maxHP = spec.maxHP;
         currentHP = maxHP;
-        RightPanelStats.UpdateStats(this);  // อัปเดตหน้า Stat UI
+        attackDamage = spec.baseDamage;
+        moveSpeed = spec.moveSpeed;
+        skillCooldown = spec.skillCooldown;
+
+        // อัปเดต Stat UI
+        RightPanelStats.UpdateStats(this);
+
     }
 
-    // -------------------------
-    // Damage System
-    // -------------------------
-    public void TakeDamage(float amount)
+    // ----------- PORTRAIT สำหรับ UI -----------
+    public Sprite GetSprite()
+    {
+        if (spec != null && spec.portraits != null)
+            return spec.portraits[0];
+
+        return null;
+    }
+
+    // ----------- DAMAGE SYSTEM -----------
+    public void TakeDamage(int amount)
     {
         currentHP -= amount;
 
@@ -46,38 +54,99 @@ public class PlayerStats : MonoBehaviour
             currentHP = 0;
             Die();
         }
-
+        UpdateStatsUI();
+    }
+    public void UpdateStatsUI()
+    {
         RightPanelStats.UpdateStats(this);
     }
+
 
     void Die()
     {
-        Debug.Log("Player Died");
-        // ใส่ Game Over ก็ได้
+        Debug.Log("Player died!");
+        // ใส่ระบบตายทีหลังได้
     }
-
-    // -------------------------
-    // Add EXP + LevelUp
-    // -------------------------
-    public void AddExp(int value)
+    public void ApplySpec()
     {
-        exp += value;
-
-        if (exp >= expToNextLevel)
-            LevelUp();
-    }
-
-    void LevelUp()
-    {
-        exp = 0;
-        level++;
-
-        // เพิ่มค่าสเตทเวลาเลเวลอัพ
-        maxHP += 20;
+        maxHP = spec.maxHP;
         currentHP = maxHP;
-        attackDamage += 2f;
-        moveSpeed += 0.2f;
+
+        attackDamage = spec.baseDamage;
+        moveSpeed = spec.moveSpeed;
+        level = 1;
+    }
+
+    // ----------- WEAPON & ACCESSORY -----------
+    public System.Collections.Generic.List<WeaponSO> weapons =
+        new System.Collections.Generic.List<WeaponSO>();
+
+    public System.Collections.Generic.List<AccessorySO> accessories =
+        new System.Collections.Generic.List<AccessorySO>();
+
+    public void AddWeapon(WeaponSO w)
+    {
+        weapons.Add(w);
+        attackDamage += w.attackBonus;
+        RightPanelStats.UpdateStats(this);
+    }
+
+    public void AddAccessory(AccessorySO a)
+    {
+        accessories.Add(a);
+        maxHP += a.hpBonus;
+        moveSpeed += a.speedBonus;
+        RightPanelStats.UpdateStats(this);
+    }
+
+    // ----------- LEVEL UP -----------
+    public int GetWeaponLevel(WeaponSO w)
+    {
+        return w.level;
+    }
+
+    public void LevelUpWeapon(WeaponSO w)
+    {
+        if (w.level < w.maxLevel)
+        {
+            w.level++;
+            attackDamage += w.damagePerLevel[w.level - 1];
+        }
+    }
+    public void ApplySpec(CharacterSpecSO newSpec)
+    {
+        spec = newSpec;
+
+        maxHP = spec.maxHP;
+        currentHP = maxHP;
+        attackDamage = spec.baseDamage;
+        moveSpeed = spec.moveSpeed;
 
         RightPanelStats.UpdateStats(this);
     }
+    public void RecalculateStats()
+    {
+        // base stat from character
+        maxHP = spec.maxHP;
+        attackDamage = spec.baseDamage;
+        moveSpeed = spec.moveSpeed;
+
+        // Add from weapons
+        foreach (var w in weapons)
+        {
+            attackDamage += w.damageBonus;
+            maxHP += w.hpBonus;
+        }
+
+        // Add from accessories
+        foreach (var a in accessories)
+        {
+            moveSpeed += a.speedBonus;
+        }
+
+        // อัปเดต UI
+        RightPanelStats.UpdateStats(this);
+    }
+
+
 }

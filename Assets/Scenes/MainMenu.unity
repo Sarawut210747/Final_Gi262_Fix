@@ -2812,6 +2812,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameSession
       objectReference: {fileID: 0}
+    - target: {fileID: 3204072958123445140, guid: 579487eb2c9c465469e322d1d9895e44,
+        type: 3}
+      propertyPath: selectedCharacter
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8699439306431306319, guid: 579487eb2c9c465469e322d1d9895e44,
         type: 3}
       propertyPath: m_LocalPosition.x

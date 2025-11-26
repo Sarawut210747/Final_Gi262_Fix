@@ -9,6 +9,7 @@ public class SkillManager : MonoBehaviour
     public void Setup(CharacterSpecSO spec)
     {
         stats = GetComponent<PlayerStats>();
+        stats.spec = spec;
         skillTimer = 0;
     }
 

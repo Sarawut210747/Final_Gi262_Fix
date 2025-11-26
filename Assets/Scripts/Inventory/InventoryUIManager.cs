@@ -48,8 +48,8 @@ public class InventoryUIManager : MonoBehaviour
         RightPanelStats.UpdateStats(playerStats);
 
         // อัปเดตรูปตัวละคร
-        if (characterImage != null && playerStats.characterSprite != null)
-            characterImage.sprite = playerStats.characterSprite;
+        // if (characterImage != null && playerStats.characterSprite != null)
+        //     characterImage.sprite = playerStats.characterSprite;
     }
 
 }

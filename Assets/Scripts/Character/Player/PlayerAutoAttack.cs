@@ -9,10 +9,6 @@ public class PlayerAutoAttack : MonoBehaviour
     public float fireRate = 0.5f;
     float fireTimer;
 
-    void Start()
-    {
-
-    }
     void Update()
     {
         fireTimer -= Time.deltaTime;

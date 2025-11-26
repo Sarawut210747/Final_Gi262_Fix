@@ -696,7 +696,6 @@ GameObject:
   - component: {fileID: 301859178}
   - component: {fileID: 301859181}
   - component: {fileID: 301859185}
-  - component: {fileID: 301859184}
   - component: {fileID: 301859186}
   - component: {fileID: 301859188}
   - component: {fileID: 301859189}
@@ -888,18 +887,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.225057, y: 0.36523527}
   m_EdgeRadius: 0
---- !u!114 &301859184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301859177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7d7cb0764a657c4b8841db1ac67342a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &301859185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -912,17 +899,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86ee2a6cb53bbc4dbe7baf3eb479bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spec: {fileID: 11400000, guid: 60b2ad26c17eb314793d0732d07b954b, type: 2}
-  currentHP: 0
-  moveSpeed: 0
-  damage: 0
-  killCount: 0
-  characterSprite: {fileID: 0}
-  level: 0
-  currentExp: 0
-  expToNextLevel: 0
   maxHP: 0
+  currentHP: 0
   attackDamage: 0
+  moveSpeed: 0
+  level: 0
+  skillCooldown: 3
+  spec: {fileID: 0}
   weapons: []
   accessories: []
 --- !u!114 &301859186
@@ -942,7 +925,6 @@ MonoBehaviour:
   firePoint: {fileID: 919084747}
   shootRange: 6
   fireRate: 0.5
-  inventory: {fileID: 301859189}
 --- !u!114 &301859188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,6 +1126,7 @@ GameObject:
   - component: {fileID: 393993242}
   - component: {fileID: 393993244}
   - component: {fileID: 393993243}
+  - component: {fileID: 393993245}
   m_Layer: 5
   m_Name: ImageCharacter
   m_TagString: Untagged
@@ -1208,6 +1191,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393993241}
   m_CullTransparentMesh: 1
+--- !u!114 &393993245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393993241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fce2dc15a0757848880a607d9cb7849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpText: {fileID: 1947702423}
+  atkText: {fileID: 1179948493}
+  speedText: {fileID: 2027512077}
+  levelText: {fileID: 918606276}
+  portraitImage: {fileID: 393993243}
 --- !u!1 &405525428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +2147,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 434.3579, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &918606276
 MonoBehaviour:
@@ -2713,7 +2713,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 434.3579, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1179948493
 MonoBehaviour:
@@ -6808,7 +6808,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 434.3579, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1947702423
 MonoBehaviour:
@@ -7008,7 +7008,6 @@ GameObject:
   - component: {fileID: 2005661100}
   - component: {fileID: 2005661103}
   - component: {fileID: 2005661102}
-  - component: {fileID: 2005661101}
   m_Layer: 5
   m_Name: Stat
   m_TagString: Untagged
@@ -7036,22 +7035,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: 0}
   m_SizeDelta: {x: 600, y: 800}
   m_Pivot: {x: 1, y: 0.5}
---- !u!114 &2005661101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005661099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fce2dc15a0757848880a607d9cb7849, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hpText: {fileID: 1947702423}
-  atkText: {fileID: 1179948493}
-  speedText: {fileID: 2027512077}
-  levelText: {fileID: 918606276}
 --- !u!114 &2005661102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7126,7 +7109,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 434.3579, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2027512077
 MonoBehaviour:
