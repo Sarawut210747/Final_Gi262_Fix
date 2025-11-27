@@ -120,6 +120,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -334,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gothic Shadow Plant_0: -6778220598596940093
+      Gothic Shadow Plant_1: 6156109443608818541
+      Gothic Shadow Plant_2: 7097739431640427855
+      Gothic Shadow Plant_3: 1848502588824454230
+      Gothic Shadow Plant_4: -2008066553788541115
+      Gothic Shadow Plant_5: 7359368453587970939
+      Gothic Shadow Plant_6: 3854513216204966879
+      Gothic Shadow Plant_7: -6012101834833402294
+      Gothic Shadow Plant_8: -7159174306731495645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

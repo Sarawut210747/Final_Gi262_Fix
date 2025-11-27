@@ -168,6 +168,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -734,7 +760,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gothic Plant_0: 6509071929743026116
+      Gothic Plant_1: 4842541339163672504
+      Gothic Plant_10: 8905260047763892846
+      Gothic Plant_11: 5633148242037169162
+      Gothic Plant_12: -1878427571157241941
+      Gothic Plant_13: -4120978876834269785
+      Gothic Plant_14: 7162235841987756615
+      Gothic Plant_15: 5465764904810414195
+      Gothic Plant_16: 7536055270263662752
+      Gothic Plant_17: -4624373838572212747
+      Gothic Plant_18: -6726448429366175376
+      Gothic Plant_19: -4366687632718813749
+      Gothic Plant_2: 4748875392079944870
+      Gothic Plant_20: -6307497739831322641
+      Gothic Plant_21: 3838680527211341733
+      Gothic Plant_22: -440874248714598704
+      Gothic Plant_23: -2620000082069678264
+      Gothic Plant_24: 6318720102625289867
+      Gothic Plant_3: -4966888538290044630
+      Gothic Plant_4: -7230362206655459310
+      Gothic Plant_5: -6671689362306897074
+      Gothic Plant_6: 3040637743688145981
+      Gothic Plant_7: 8036520728303637924
+      Gothic Plant_8: -8806407192237728259
+      Gothic Plant_9: -2395179651237662751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -252,6 +252,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1434,7 +1460,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gothic Props_0: 113827527944088190
+      Gothic Props_1: 2993679980234706332
+      Gothic Props_10: -6643654908773632222
+      Gothic Props_11: -5609139796692317724
+      Gothic Props_12: -6811565929881322961
+      Gothic Props_13: -6536089944361932480
+      Gothic Props_14: -882490490184852465
+      Gothic Props_15: -7455579148382314236
+      Gothic Props_16: 1670095765105546155
+      Gothic Props_17: -8091701824509000511
+      Gothic Props_18: -3705676446852587546
+      Gothic Props_19: 3141888439277045394
+      Gothic Props_2: -8396900000752713570
+      Gothic Props_20: 4109459012061119627
+      Gothic Props_21: -6454734655157481240
+      Gothic Props_22: -731212323924730933
+      Gothic Props_23: -3043546949419203441
+      Gothic Props_24: 6441680489507386021
+      Gothic Props_25: 8515795154968067742
+      Gothic Props_26: -3682785097402584054
+      Gothic Props_27: 9058029275666808756
+      Gothic Props_28: 8658525872276340591
+      Gothic Props_29: -4097588768503808157
+      Gothic Props_3: -6100644396989317507
+      Gothic Props_30: -7459677278965995612
+      Gothic Props_31: -8234063957096922654
+      Gothic Props_32: -5900107034380379177
+      Gothic Props_33: -5877151947992461809
+      Gothic Props_34: 733749357891936039
+      Gothic Props_35: -6184850907892235168
+      Gothic Props_36: 6666868172880332419
+      Gothic Props_37: -2834970003369781361
+      Gothic Props_38: -5222284887134495940
+      Gothic Props_39: -7261599696060874259
+      Gothic Props_4: 3916680328726698456
+      Gothic Props_40: -2334895240281609361
+      Gothic Props_41: 3639395920432093959
+      Gothic Props_42: -835276111780536232
+      Gothic Props_43: 5502685566945951213
+      Gothic Props_44: -7253618927407826609
+      Gothic Props_45: 1358877841010715866
+      Gothic Props_46: -4521527230489978044
+      Gothic Props_47: 2809746304870230853
+      Gothic Props_48: 5551256900223331359
+      Gothic Props_49: 877205832624702979
+      Gothic Props_5: 1595842239508156060
+      Gothic Props_50: -7641557223937319838
+      Gothic Props_51: -8149552560374210323
+      Gothic Props_52: -2656139219998397684
+      Gothic Props_6: 7439115590388914410
+      Gothic Props_7: -173059164143261302
+      Gothic Props_8: 3095873337135600902
+      Gothic Props_9: -5919565460456174256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

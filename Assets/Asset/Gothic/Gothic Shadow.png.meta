@@ -219,6 +219,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1159,7 +1185,49 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gothic Shadow_0: -5863034424356123561
+      Gothic Shadow_1: -5933572516027424900
+      Gothic Shadow_10: -2320987521433797378
+      Gothic Shadow_11: 6319959862957327265
+      Gothic Shadow_12: -689553718661681852
+      Gothic Shadow_13: -1769041138759531066
+      Gothic Shadow_14: 4120855611435936619
+      Gothic Shadow_15: -8597805080040031909
+      Gothic Shadow_16: 7999343919030217348
+      Gothic Shadow_17: -2119032869177847274
+      Gothic Shadow_18: 5670965079377003697
+      Gothic Shadow_19: 4041418893018494000
+      Gothic Shadow_2: 5374756437220243111
+      Gothic Shadow_20: -3765711780632989268
+      Gothic Shadow_21: -194846771510835490
+      Gothic Shadow_22: -3023833649011164089
+      Gothic Shadow_23: 2358796607073345246
+      Gothic Shadow_24: -7721406509347508018
+      Gothic Shadow_25: 3123824390085936100
+      Gothic Shadow_26: 383578074647523777
+      Gothic Shadow_27: -6195059828859161725
+      Gothic Shadow_28: -4609969846286907750
+      Gothic Shadow_29: -8554520490187375659
+      Gothic Shadow_3: -3034980593867433145
+      Gothic Shadow_30: -4333699035208559380
+      Gothic Shadow_31: -3375062029781023380
+      Gothic Shadow_32: -3029622693731664387
+      Gothic Shadow_33: 5104336688444329796
+      Gothic Shadow_34: -215636592018602977
+      Gothic Shadow_35: 196897518357708934
+      Gothic Shadow_36: -3712596515784263978
+      Gothic Shadow_37: -5570397616140705884
+      Gothic Shadow_38: 2009941849832186805
+      Gothic Shadow_39: 4210121347530102524
+      Gothic Shadow_4: 5607231000116785618
+      Gothic Shadow_40: 6498114974373954387
+      Gothic Shadow_41: -6051684348522398834
+      Gothic Shadow_5: -5720438750656771188
+      Gothic Shadow_6: -5848594746687268670
+      Gothic Shadow_7: -1497960535124382387
+      Gothic Shadow_8: 3035779735275188390
+      Gothic Shadow_9: 2588965322655262741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

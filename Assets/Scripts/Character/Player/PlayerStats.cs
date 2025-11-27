@@ -11,6 +11,7 @@ public class PlayerStats : MonoBehaviour
     public float moveSpeed = 3f;
     public int level = 1;
     public float skillCooldown = 3f;
+    public HealthBar healthBar;
 
     // ----------- CHARACTER SPEC (อ่านจาก GameSession) -----------
     public CharacterSpecSO spec;
@@ -27,10 +28,12 @@ public class PlayerStats : MonoBehaviour
         this.spec = spec;
 
         maxHP = spec.maxHP;
-        currentHP = maxHP;
+        currentHP = spec.maxHP;
         attackDamage = spec.baseDamage;
         moveSpeed = spec.moveSpeed;
         skillCooldown = spec.skillCooldown;
+
+        healthBar.SetMaxHP(spec.maxHP);
 
         // อัปเดต Stat UI
         RightPanelStats.UpdateStats(this);
@@ -52,6 +55,7 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHP -= amount;
+        healthBar.SetHP(currentHP);
 
         if (currentHP <= 0)
         {

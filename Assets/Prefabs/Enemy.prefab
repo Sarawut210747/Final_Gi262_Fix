@@ -62,6 +62,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  touchDamage: 2
+  playerLevel: {fileID: 0}
 --- !u!50 &6164985353513785703
 Rigidbody2D:
   serializedVersion: 5

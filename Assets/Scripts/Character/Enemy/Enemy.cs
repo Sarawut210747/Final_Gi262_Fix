@@ -3,7 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int maxHp = 30;
-    public int touchDamage = 10;
+    public int touchDamage = 2;
     public PlayerLevel playerLevel;
     int currentHp;
 
