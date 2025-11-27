@@ -19,6 +19,12 @@ public class LevelUpUI : MonoBehaviour
 
     public PlayerInventory inventory;
 
+    public static LevelUpUI Instance;
+
+    void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         inventory = FindFirstObjectByType<PlayerInventory>();
@@ -28,6 +34,7 @@ public class LevelUpUI : MonoBehaviour
     {
         panel.SetActive(true);
         Generate3RandomChoices();
+        Time.timeScale = 0f;
     }
 
     void Generate3RandomChoices()
@@ -73,7 +80,18 @@ public class LevelUpUI : MonoBehaviour
 
     public void ChooseWeapon(WeaponSO weapon)
     {
-        inventory.AddWeapon(weapon);
+        var inv = inventory;
+        PlayerStats stats = FindAnyObjectByType<PlayerStats>();
+        stats.AddWeapon(weapon);
+
+        if (!inv.weaponLevels.ContainsKey(weapon))
+            inv.weaponLevels[weapon] = 1;
+
+        else
+            inv.weaponLevels[weapon]++;
+
+        // อัปเดตหน้าต่าง stat
+        RightPanelStats.UpdateStats(stats);
         Close();
     }
 
@@ -88,4 +106,6 @@ public class LevelUpUI : MonoBehaviour
         panel.SetActive(false);
         Time.timeScale = 1f;
     }
+
+
 }

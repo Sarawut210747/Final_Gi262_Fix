@@ -19,4 +19,4 @@ MonoBehaviour:
   skillCooldown: 5
   displayName: Elf
   portraits:
-  - {fileID: 3228681307683998360, guid: 564c7e9ec91dd2c4fb74e88f11be9356, type: 3}
+  - {fileID: 7721608675014573056, guid: ad08b9bc01ec7f44eb940d00912e35e4, type: 3}

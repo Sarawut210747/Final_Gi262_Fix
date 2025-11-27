@@ -12,13 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325f78ab6b979d345844ad1e91dea0b3, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
+  itemName: Sword
+  icon: {fileID: 712035800519618848, guid: 1b53b502ef673a44e99c03fe52c3d738, type: 3}
+  bonusHP: 0
+  bonusDamage: 0
+  bonusMoveSpeed: 0
+  bonusAttackSpeed: 0
   weaponName: Sword
-  icon: {fileID: -10524483601426386, guid: c718867b420832c4e8d069ec60bb47c0, type: 3}
   damageBonus: 2
   hpBonus: 0
   baseDamage: 10
   attackBonus: 0
-  level: 1
+  level: 2
   maxLevel: 5
   damagePerLevel: 05000000070000000a0000000d00000012000000
   rangePerLevel:

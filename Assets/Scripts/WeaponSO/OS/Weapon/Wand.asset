@@ -12,13 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325f78ab6b979d345844ad1e91dea0b3, type: 3}
   m_Name: Wand
   m_EditorClassIdentifier: 
+  itemName: Wand
+  icon: {fileID: 8979405933268748967, guid: c3f1521e0d7a61f4c916add1e3d00f97, type: 3}
+  bonusHP: 0
+  bonusDamage: 0
+  bonusMoveSpeed: 0
+  bonusAttackSpeed: 0
   weaponName: Wand
-  icon: {fileID: -5425450588715875996, guid: c718867b420832c4e8d069ec60bb47c0, type: 3}
   damageBonus: 1
   hpBonus: 0
   baseDamage: 10
   attackBonus: 0
-  level: 1
+  level: 2
   maxLevel: 5
   damagePerLevel: 05000000070000000a0000000d00000012000000
   rangePerLevel:

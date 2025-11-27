@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gloves
   m_EditorClassIdentifier: 
   itemName: Glove
-  icon: {fileID: 582321688951060525, guid: c718867b420832c4e8d069ec60bb47c0, type: 3}
+  icon: {fileID: 7687297797938937925, guid: 33b6d6a20ab6b54409c9fced832c2363, type: 3}
   hpBonus: 0
   hpBonusPerLevel: 0
   speedBonus: 0

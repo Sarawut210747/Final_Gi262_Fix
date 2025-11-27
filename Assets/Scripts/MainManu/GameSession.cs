@@ -18,7 +18,6 @@ public class GameSession : MonoBehaviour
             Destroy(gameObject);
         }
         PlayerStats ps = FindFirstObjectByType<PlayerStats>();
-        ps.ApplySpec(selectedCharacter);
     }
 
     public void SetCharacter(CharacterSpecSO spec) => selectedCharacter = spec;

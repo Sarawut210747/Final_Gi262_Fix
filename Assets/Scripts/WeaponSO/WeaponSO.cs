@@ -1,11 +1,9 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "LevelUp/Weapon")]
-public class WeaponSO : ScriptableObject
+public class WeaponSO : ItemSO
 {
-    public string weaponName;
-    public Sprite icon;
-    public int damageBonus;
+    public string weaponName; public int damageBonus;
     public int hpBonus;
     public int baseDamage = 10;
     public int attackBonus = 0;

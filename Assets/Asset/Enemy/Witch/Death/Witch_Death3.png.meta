@@ -1,0 +1,1193 @@
+fileFormatVersion: 2
+guid: fdd6142d9be1de64a9918bcc1f47f15f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -817584750155835309
+    second: Witch_Death3_0
+  - first:
+      213: -5152874739208835229
+    second: Witch_Death3_1
+  - first:
+      213: -6887694441686546759
+    second: Witch_Death3_2
+  - first:
+      213: 8385234420819861661
+    second: Witch_Death3_3
+  - first:
+      213: -8277576076620301453
+    second: Witch_Death3_4
+  - first:
+      213: 6353935874058929991
+    second: Witch_Death3_5
+  - first:
+      213: -6623657087984876703
+    second: Witch_Death3_6
+  - first:
+      213: 3174052058966132178
+    second: Witch_Death3_7
+  - first:
+      213: 1240110443540167063
+    second: Witch_Death3_8
+  - first:
+      213: -6142969034479714515
+    second: Witch_Death3_9
+  - first:
+      213: 7856125892980073003
+    second: Witch_Death3_10
+  - first:
+      213: 3589480038165231008
+    second: Witch_Death3_11
+  - first:
+      213: -3465944388011187803
+    second: Witch_Death3_12
+  - first:
+      213: -7250242442659661137
+    second: Witch_Death3_13
+  - first:
+      213: -445750591675804992
+    second: Witch_Death3_14
+  - first:
+      213: -5255441897689920279
+    second: Witch_Death3_15
+  - first:
+      213: -8906623018417993155
+    second: Witch_Death3_16
+  - first:
+      213: -7817903840194104754
+    second: Witch_Death3_17
+  - first:
+      213: 354929805369635643
+    second: Witch_Death3_18
+  - first:
+      213: -3032397937962701170
+    second: Witch_Death3_19
+  - first:
+      213: -1799243471642853627
+    second: Witch_Death3_20
+  - first:
+      213: -1604841951095691591
+    second: Witch_Death3_21
+  - first:
+      213: -1034340980711132796
+    second: Witch_Death3_22
+  - first:
+      213: -6703278412683873685
+    second: Witch_Death3_23
+  - first:
+      213: -5289401978097367726
+    second: Witch_Death3_24
+  - first:
+      213: 3221579796318973281
+    second: Witch_Death3_25
+  - first:
+      213: -3444272906781240918
+    second: Witch_Death3_26
+  - first:
+      213: -7522964398444349823
+    second: Witch_Death3_27
+  - first:
+      213: -8574680347367255475
+    second: Witch_Death3_28
+  - first:
+      213: -7424279909750332822
+    second: Witch_Death3_29
+  - first:
+      213: 2815800309497890525
+    second: Witch_Death3_30
+  - first:
+      213: -6336927097836031331
+    second: Witch_Death3_31
+  - first:
+      213: -1511176681508580186
+    second: Witch_Death3_32
+  - first:
+      213: -7031389668568719877
+    second: Witch_Death3_33
+  - first:
+      213: 8623753576698887604
+    second: Witch_Death3_34
+  - first:
+      213: 2209405060134941584
+    second: Witch_Death3_35
+  - first:
+      213: -2947664153307738960
+    second: Witch_Death3_36
+  - first:
+      213: -8657241783248539882
+    second: Witch_Death3_37
+  - first:
+      213: 5525191138359781914
+    second: Witch_Death3_38
+  - first:
+      213: -5068537061211570864
+    second: Witch_Death3_39
+  - first:
+      213: -4846473514877825990
+    second: Witch_Death3_40
+  - first:
+      213: -5080978430772337015
+    second: Witch_Death3_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Witch_Death3_0
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 699
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3585f21600b57a4f0800000000000000
+      internalID: -817584750155835309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 689
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36faf5dc9bf4d78b0800000000000000
+      internalID: -5152874739208835229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 639
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b647d9d56ef960a0800000000000000
+      internalID: -6887694441686546759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 599
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90a85367465e5470800000000000000
+      internalID: 8385234420819861661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 639
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b76cf2a64202d80800000000000000
+      internalID: -8277576076620301453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 619
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747c4ea4307bd2850800000000000000
+      internalID: 6353935874058929991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 609
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163c9acd8fa0414a0800000000000000
+      internalID: -6623657087984876703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 619
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50641e78f7c0c20800000000000000
+      internalID: 3174052058966132178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_8
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 599
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799b675c0e1c53110800000000000000
+      internalID: 1240110443540167063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 609
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fbc91c53acfbaa0800000000000000
+      internalID: -6142969034479714515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 579
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2263d940e0960d60800000000000000
+      internalID: 7856125892980073003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 519
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5b13ba31560d130800000000000000
+      internalID: 3589480038165231008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 599
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1a55541fd76efc0800000000000000
+      internalID: -3465944388011187803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 589
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa7fcd69e6f16b90800000000000000
+      internalID: -7250242442659661137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 589
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c25eb4d23060d9f0800000000000000
+      internalID: -445750591675804992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 599
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eccc76407be017b0800000000000000
+      internalID: -5255441897689920279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 559
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ac0e6dd81556480800000000000000
+      internalID: -8906623018417993155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_17
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 579
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42711dd0e9318390800000000000000
+      internalID: -7817903840194104754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_18
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 579
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33714907c6fce400800000000000000
+      internalID: 354929805369635643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 549
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e2b1a4422cae5d0800000000000000
+      internalID: -3032397937962701170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 519
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f7948689dc707e0800000000000000
+      internalID: -1799243471642853627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 539
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6eb409fb47ab9e0800000000000000
+      internalID: -1604841951095691591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 509
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4817514bb5845a1f0800000000000000
+      internalID: -1034340980711132796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 529
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62fe659ccb29f2a0800000000000000
+      internalID: -6703278412683873685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_24
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 489
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2550245ece44896b0800000000000000
+      internalID: -5289401978097367726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_25
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 509
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16dea2f81c955bc20800000000000000
+      internalID: 3221579796318973281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 489
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa15dc13a0c7330d0800000000000000
+      internalID: -3444272906781240918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_27
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 479
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18670dcecbf099790800000000000000
+      internalID: -7522964398444349823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_28
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 489
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42d6a897ad900980800000000000000
+      internalID: -8574680347367255475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_29
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 409
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a622342f1c8a7f890800000000000000
+      internalID: -7424279909750332822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_30
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 459
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd68e06767bb31720800000000000000
+      internalID: 2815800309497890525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_31
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 419
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92bfe50166be08a0800000000000000
+      internalID: -6336927097836031331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_32
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 389
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4d3d190d8370be0800000000000000
+      internalID: -1511176681508580186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_33
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 359
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd1c9fa95c7b6e90800000000000000
+      internalID: -7031389668568719877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_34
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 399
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd34a9ff2abda770800000000000000
+      internalID: 8623753576698887604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 369
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0933b4e323269ae10800000000000000
+      internalID: 2209405060134941584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_36
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 379
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc80f8e11bc717d0800000000000000
+      internalID: -2947664153307738960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_37
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 339
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f2dc6577c4bd780800000000000000
+      internalID: -8657241783248539882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_38
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 319
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a221e011c6dac40800000000000000
+      internalID: 5525191138359781914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 319
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05df497a560f8a9b0800000000000000
+      internalID: -5068537061211570864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_40
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c4e54140eddbcb0800000000000000
+      internalID: -4846473514877825990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Death3_41
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986a462990dbc79b0800000000000000
+      internalID: -5080978430772337015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

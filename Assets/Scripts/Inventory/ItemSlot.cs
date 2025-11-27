@@ -7,6 +7,7 @@ public class ItemSlot : MonoBehaviour
     public Image icon;
     public TMP_Text nameText;
 
+
     // ---------- SET WEAPON ----------
     public void SetWeapon(WeaponSO weapon)
     {

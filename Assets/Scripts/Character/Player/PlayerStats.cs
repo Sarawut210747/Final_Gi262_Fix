@@ -7,11 +7,12 @@ public class PlayerStats : MonoBehaviour
     // ----------- ค่าพื้นฐาน -----------
     public int maxHP = 100;
     public int currentHP = 100;
-    public float attackDamage = 5;
+    public int attackDamage = 5;
     public float moveSpeed = 3f;
     public int level = 1;
     public float skillCooldown = 3f;
     public HealthBar healthBar;
+    public ItemSO[] equipments;
 
     // ----------- CHARACTER SPEC (อ่านจาก GameSession) -----------
     public CharacterSpecSO spec;
@@ -93,18 +94,47 @@ public class PlayerStats : MonoBehaviour
 
     public void AddWeapon(WeaponSO w)
     {
-        weapons.Add(w);
-        attackDamage += w.attackBonus;
+        if (!weapons.Contains(w))
+        {
+            weapons.Add(w);
+            attackDamage += w.baseDamage;
+        }
+        else
+        {
+            if (w.level < w.maxLevel)
+            {
+                w.level++;
+                attackDamage += w.damagePerLevel[w.level - 1];
+            }
+        }
+
         RightPanelStats.UpdateStats(this);
     }
 
+
     public void AddAccessory(AccessorySO a)
     {
-        accessories.Add(a);
-        maxHP += a.hpBonus;
-        moveSpeed += a.speedBonus;
+        if (!accessories.Contains(a))
+        {
+            accessories.Add(a);
+            maxHP += a.hpBonus;
+            moveSpeed += a.speedBonus;
+            a.level = 1;
+        }
+        else
+        {
+            if (a.level < a.maxLevel)
+            {
+                a.level++;
+
+                maxHP += a.hpBonusPerLevel;
+                moveSpeed += a.speedBonusPerLevel;
+            }
+        }
+
         RightPanelStats.UpdateStats(this);
     }
+
 
     // ----------- LEVEL UP -----------
     public int GetWeaponLevel(WeaponSO w)
@@ -153,6 +183,31 @@ public class PlayerStats : MonoBehaviour
 
         // อัปเดต UI
         RightPanelStats.UpdateStats(this);
+    }
+    public int GetTotalDamage()
+    {
+        int damage = attackDamage;
+
+        foreach (var w in weapons)
+            damage += w.GetDamage();
+
+        foreach (var a in accessories)
+            damage += a.GetDamage();
+
+        return damage;
+    }
+
+    public int GetTotalHP()
+    {
+        int hp = maxHP;
+
+        foreach (var w in weapons)
+            hp += w.GetHP();
+
+        foreach (var a in accessories)
+            hp += a.GetHP();
+
+        return hp;
     }
 
 
