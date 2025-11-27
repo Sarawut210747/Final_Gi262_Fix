@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vampire_NAttack3_0: 412647132864547486
+      Vampire_NAttack3_1: -6356676596716510523
+      Vampire_NAttack3_2: 3123809847764168121
+      Vampire_NAttack3_3: -1669077839375661491
+      Vampire_NAttack3_4: -8416509653664261238
+      Vampire_NAttack3_5: -541356580547993260
+      Vampire_NAttack3_6: 4712348609619250284
+      Vampire_NAttack3_7: 8437817469756821871
+      Vampire_NAttack3_8: -8237425980476973077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

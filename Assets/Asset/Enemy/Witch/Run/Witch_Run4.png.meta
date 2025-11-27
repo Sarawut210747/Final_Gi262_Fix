@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Witch_Run4_0: 3075878288460223331
+      Witch_Run4_1: 3285106588609679312
+      Witch_Run4_2: 8779284238545346272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

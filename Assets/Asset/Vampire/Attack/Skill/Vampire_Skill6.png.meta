@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vampire_Skill6_0: 4831473875658967353
+      Vampire_Skill6_1: 3747447101806441350
+      Vampire_Skill6_2: 6894524764615826425
+      Vampire_Skill6_3: -4263867802016304296
+      Vampire_Skill6_4: -9098713779315170767
+      Vampire_Skill6_5: -7882109940171054591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

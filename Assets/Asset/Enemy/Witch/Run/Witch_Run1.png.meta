@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Witch_Run1_0: 673242567272174799
+      Witch_Run1_1: 1968707796673367859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -510,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vampire_Skill8_0: 5790525257657380018
+      Vampire_Skill8_1: 3684704597323370226
+      Vampire_Skill8_10: -3584035284867784795
+      Vampire_Skill8_11: 3943871159102233014
+      Vampire_Skill8_12: -8582047059044407969
+      Vampire_Skill8_13: 3737926645846846385
+      Vampire_Skill8_14: 7134445187862422614
+      Vampire_Skill8_2: -2490354816551056100
+      Vampire_Skill8_3: -3894794855090137755
+      Vampire_Skill8_4: -3748959416679855476
+      Vampire_Skill8_5: -5562316024357530727
+      Vampire_Skill8_6: 5847935901597823353
+      Vampire_Skill8_7: 7430100249953056353
+      Vampire_Skill8_8: -1209502411057514369
+      Vampire_Skill8_9: 5171118280971270889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

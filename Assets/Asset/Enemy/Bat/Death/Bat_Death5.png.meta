@@ -835,7 +835,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bat_Death5_0: 2258187134572985299
+      Bat_Death5_1: 1242998986724654098
+      Bat_Death5_10: 1720812164834508693
+      Bat_Death5_11: -1337486482386314861
+      Bat_Death5_12: -2335688376873148154
+      Bat_Death5_13: -3018688131831082174
+      Bat_Death5_14: -7497728474059796058
+      Bat_Death5_15: -1955491686219294734
+      Bat_Death5_16: -8551768800174851336
+      Bat_Death5_17: 7579058012987537107
+      Bat_Death5_18: -6681889219213169471
+      Bat_Death5_19: 1968166965000299008
+      Bat_Death5_2: 5617558003600700175
+      Bat_Death5_20: -5718407202092625993
+      Bat_Death5_21: 8988289393500426771
+      Bat_Death5_22: -1371621430377076036
+      Bat_Death5_23: -4529175404192075952
+      Bat_Death5_24: 7847905345979735513
+      Bat_Death5_25: -5229249452444647010
+      Bat_Death5_26: 3923633038975231355
+      Bat_Death5_27: -7835107034086426036
+      Bat_Death5_3: -4096308059467530965
+      Bat_Death5_4: 1114673494356764771
+      Bat_Death5_5: -2571496613224245203
+      Bat_Death5_6: -1833720897877733784
+      Bat_Death5_7: 1093773022151941295
+      Bat_Death5_8: -6462364916125822395
+      Bat_Death5_9: 5930624573517262249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
