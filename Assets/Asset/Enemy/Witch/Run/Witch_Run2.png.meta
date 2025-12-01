@@ -135,10 +135,10 @@ TextureImporter:
       name: Witch_Run2_0
       rect:
         serializedVersion: 2
-        x: 289
-        y: 599
-        width: 12
-        height: 12
+        x: 0
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,55 +153,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Witch_Run2_1
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 319
-        width: 282
-        height: 392
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4295adc557361c050800000000000000
-      internalID: 5819041549259528484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Witch_Run2_2
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 549
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee56a9ed15771d920800000000000000
-      internalID: 3013320819198289390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d200ea09f46b52b4ca6634e7f21903bb
     internalID: 0
     vertices: []
     indices: 
@@ -212,8 +168,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Witch_Run2_0: 3519473375183713023
-      Witch_Run2_1: 5819041549259528484
-      Witch_Run2_2: 3013320819198289390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

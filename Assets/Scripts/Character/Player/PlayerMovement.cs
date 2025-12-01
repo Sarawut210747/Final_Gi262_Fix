@@ -43,9 +43,9 @@ public class PlayerMovement : MonoBehaviour
             visual.localScale = new Vector3(-3, 3, 3);
 
         // ✔ Trigger skill
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
-            animator.SetTrigger("Attack");
+            GetComponent<VampireSkill>()?.UseActiveSkill();
         }
     }
 

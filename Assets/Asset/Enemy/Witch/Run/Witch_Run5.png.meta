@@ -132,10 +132,10 @@ TextureImporter:
       name: Witch_Run5_0
       rect:
         serializedVersion: 2
-        x: 269
-        y: 579
-        width: 22
-        height: 22
+        x: 0
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,33 +150,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Witch_Run5_1
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 319
-        width: 292
-        height: 402
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ca0373c49536a280800000000000000
-      internalID: -9032473089594422590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e73c6b2593267ed40a96fbbdf9cfb7c5
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +165,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Witch_Run5_0: 2110852187552001765
-      Witch_Run5_1: -9032473089594422590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

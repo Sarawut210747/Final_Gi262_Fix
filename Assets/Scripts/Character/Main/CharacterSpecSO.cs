@@ -11,6 +11,7 @@ public enum CharacterType
 public class CharacterSpecSO : ScriptableObject
 {
     public CharacterType type;
+    public PassiveSkillSO passiveSkill;
 
     [Header("Stats")]
     public int maxHP = 100;

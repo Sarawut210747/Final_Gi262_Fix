@@ -1,6 +1,6 @@
-// using UnityEngine;
+using UnityEngine;
 
-// public abstract class PassiveSkillSO : ScriptableObject
-// {
-//     public abstract void ApplyPassive(Player player);
-// }
+public abstract class PassiveSkillSO : ScriptableObject
+{
+    public abstract void ApplyPassive(PlayerStats player);
+}

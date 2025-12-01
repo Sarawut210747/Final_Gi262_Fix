@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,12 +138,12 @@ TextureImporter:
       name: Vampire_Skill7_0
       rect:
         serializedVersion: 2
-        x: 459
-        y: 869
-        width: 32
-        height: 12
+        x: 0
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,77 +156,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Vampire_Skill7_1
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 339
-        width: 482
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e49601d13e6ee7220800000000000000
-      internalID: 2485677907474671950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vampire_Skill7_2
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 159
-        width: 592
-        height: 702
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 300055f0d92f7b230800000000000000
-      internalID: 3654656379015462915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vampire_Skill7_3
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 309
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 346d16f8b9442f580800000000000000
-      internalID: -8794891687384983997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 522ace274c4aea1419f053a7ff79623a
     internalID: 0
     vertices: []
     indices: 
@@ -237,9 +171,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Vampire_Skill7_0: 3543989863888909257
-      Vampire_Skill7_1: 2485677907474671950
-      Vampire_Skill7_2: 3654656379015462915
-      Vampire_Skill7_3: -8794891687384983997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

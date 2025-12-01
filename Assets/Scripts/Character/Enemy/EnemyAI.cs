@@ -12,6 +12,9 @@ public class EnemyAI : MonoBehaviour
 
     private void Update()
     {
+        if (GetComponent<EnemyStunFlag>()?.isStunned == true) return;
+
+
         FacePlayer();
         if (player == null) return;
 

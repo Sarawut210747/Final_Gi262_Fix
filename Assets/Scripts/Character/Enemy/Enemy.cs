@@ -43,6 +43,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        FindFirstObjectByType<VampireSkill>()?.AddKill();
         FindFirstObjectByType<PlayerLevel>().AddExp(5);
         Debug.Log(name + " died!");
         Destroy(gameObject);

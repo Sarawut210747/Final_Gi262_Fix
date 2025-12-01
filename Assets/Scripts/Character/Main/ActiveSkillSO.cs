@@ -1,7 +1,7 @@
-// using UnityEngine;
+using UnityEngine;
 
-// public abstract class ActiveSkillSO : ScriptableObject
-// {
-//     public float cooldown;
-//     public abstract void Activate(Player player);
-// }
+public abstract class ActiveSkillSO : ScriptableObject
+{
+    public float cooldown = 5f;
+    public abstract void Activate(PlayerStats player);
+}
