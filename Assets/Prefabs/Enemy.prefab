@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
-  touchDamage: 2
+  touchDamage: 10
   playerLevel: {fileID: 0}
 --- !u!114 &3416672174573796984
 MonoBehaviour:

@@ -1031,7 +1031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8235e3edb59c347992f0ce2639eed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 2016269526555186934, guid: 694c939699b7c2e45b6f9ad4ff4c3784,
+    type: 3}
   firePoint: {fileID: 919084747}
   shootRange: 6
   fireRate: 0.5
@@ -1087,7 +1088,7 @@ MonoBehaviour:
   explosionRadius: 3
   explosionDamage: 30
   cooldown: 10
-  killRequired: 20
+  killRequired: 10
   auraRadius: 2.5
   auraDuration: 5
   stunDuration: 10
