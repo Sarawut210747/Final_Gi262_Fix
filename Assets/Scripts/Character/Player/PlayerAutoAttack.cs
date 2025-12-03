@@ -9,6 +9,14 @@ public class PlayerAutoAttack : MonoBehaviour
     public float fireRate = 0.5f;
     float fireTimer;
 
+    [Header("Sound")]
+    public AudioClip shoorSound;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void Update()
     {
         fireTimer -= Time.deltaTime;
@@ -40,6 +48,8 @@ public class PlayerAutoAttack : MonoBehaviour
         if (nearest == null) return;
 
         Vector2 dir = nearest.transform.position - firePoint.position;
+
+        audioSource.PlayOneShot(shoorSound);
 
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         bullet.GetComponent<PlayerBullet>().Setup(dir);

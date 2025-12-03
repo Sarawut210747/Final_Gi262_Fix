@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Glove
   icon: {fileID: 7687297797938937925, guid: 33b6d6a20ab6b54409c9fced832c2363, type: 3}
+  bonusHP: 1
+  bonusDamage: 0
+  bonusMoveSpeed: 0
+  bonusAttackSpeed: 5
   hpBonus: 0
   hpBonusPerLevel: 0
   speedBonus: 0
   speedBonusPerLevel: 0
-  maxLevel: 2
+  maxLevel: 5
+  level: 1
   valuePerLevel:
-  - 0
+  - 1

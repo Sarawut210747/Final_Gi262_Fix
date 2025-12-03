@@ -10,8 +10,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         currentHp = maxHp;
-        playerLevel = GameObject.FindWithTag("Player")
-                             .GetComponent<PlayerLevel>();
+        playerLevel = GameObject.FindWithTag("Player").GetComponent<PlayerLevel>();
     }
 
     public void TakeDamage(int amount)

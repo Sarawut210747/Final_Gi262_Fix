@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Armor
   icon: {fileID: 8578408184596731747, guid: e246031d6e886244ca6e59fe664467ea, type: 3}
-  hpBonus: 0
-  hpBonusPerLevel: 0
+  bonusHP: 1
+  bonusDamage: 0
+  bonusMoveSpeed: 0
+  bonusAttackSpeed: 0
+  hpBonus: 2
+  hpBonusPerLevel: 10
   speedBonus: 0
   speedBonusPerLevel: 0
-  maxLevel: 2
+  maxLevel: 5
+  level: 1
   valuePerLevel:
   - 0

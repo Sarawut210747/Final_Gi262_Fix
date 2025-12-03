@@ -18,6 +18,10 @@ public class CharacterSpecSO : ScriptableObject
     public float moveSpeed = 3;
     public int baseDamage = 10;
 
+    [Header("Descriptions")]
+    public string skillDescription;
+    public string passiveDescription;
+
     [Header("Skill")]
     public float skillCooldown = 5f;
 

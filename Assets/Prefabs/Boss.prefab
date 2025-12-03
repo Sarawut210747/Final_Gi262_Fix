@@ -9,9 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1290604059931541979}
-  - component: {fileID: -3035243970634802000}
+  - component: {fileID: -4383968501823510733}
   - component: {fileID: 8465851838456005449}
-  - component: {fileID: 2161438892446990735}
   - component: {fileID: 3454339834412646867}
   - component: {fileID: 1995895475254515752}
   - component: {fileID: 448509465939381942}
@@ -38,7 +37,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3035243970634802000
+--- !u!114 &-4383968501823510733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,18 +46,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3137182888360111205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24e67205367562f40a32c72e9009dfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: a3368a49a35cff14a905f5ea802c41db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  moveSpeed: 2
-  fleeDistance: 5
-  shootingDistance: 8
-  bulletPrefab: {fileID: 2016269526555186934, guid: ed048b6fe401b5845b55cf96c75a3360,
-    type: 3}
-  bulletSpeed: 6
-  shootCooldown: 1.5
-  shootTimer: 0
+  moveSpeed: 5
 --- !u!114 &8465851838456005449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,22 +63,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 2000
-  touchDamage: 2
+  touchDamage: 50
   playerLevel: {fileID: 0}
---- !u!114 &2161438892446990735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3137182888360111205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a40cab628f97e24e8c632b7720e16af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeTime: 4
-  TakeDam: {fileID: 8465851838456005449}
 --- !u!50 &3454339834412646867
 Rigidbody2D:
   serializedVersion: 5

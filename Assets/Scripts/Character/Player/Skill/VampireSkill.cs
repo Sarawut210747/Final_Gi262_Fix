@@ -15,12 +15,20 @@ public class VampireSkill : MonoBehaviour
     public float auraDuration = 5f;
     public float stunDuration = 0.5f;
 
+    [Header("Sound Effects")]
+    public AudioClip skillSound;
+    private AudioSource audioSource;
+
     public SkillCooldownUI cooldownUI;
     private int killCount = 0;
     private bool auraActive = false;
     public GameObject auraAnimObject;
     public GameObject activeSkillFX;
 
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
 
     void Update()
@@ -43,6 +51,7 @@ public class VampireSkill : MonoBehaviour
             cooldownUI.StartCooldown(cooldown);
         StartCoroutine(PlayActiveSkillFX());
         StartCoroutine(BloodExplosion());
+        audioSource.PlayOneShot(skillSound);
 
     }
 

@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Vampire
   m_EditorClassIdentifier: 
   type: 0
+  passiveSkill: {fileID: 0}
   maxHP: 100
   moveSpeed: 3
   baseDamage: 10
+  skillDescription: 
+  passiveDescription: 
   skillCooldown: 5
   displayName: Vampire
   portraits:

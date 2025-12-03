@@ -5,6 +5,7 @@ using TMPro;
 public class PlayerInventory : MonoBehaviour
 {
     public PlayerStats stats;
+    public PlayerMovement PlayerMovement;
 
     // เก็บ level ของอาวุธและ accessory
     public Dictionary<WeaponSO, int> weaponLevels = new Dictionary<WeaponSO, int>();
@@ -47,7 +48,7 @@ public class PlayerInventory : MonoBehaviour
             stats.attackDamage += weapon.attackBonus;
         }
 
-        RefreshUI();
+        //RefreshUI();
     }
 
     // ----------------------------
@@ -60,7 +61,8 @@ public class PlayerInventory : MonoBehaviour
             accessoryLevels.Add(item, 1);
             currentAccessories.Add(item);
 
-            stats.maxHP += item.hpBonus;
+            stats.currentHP += item.hpBonus;
+            stats.maxHP = stats.currentHP;
             stats.moveSpeed += item.speedBonus;
         }
         else
@@ -71,15 +73,15 @@ public class PlayerInventory : MonoBehaviour
             stats.moveSpeed += item.speedBonusPerLevel;
         }
 
-        RefreshUI();
+        //RefreshUI();
     }
 
     // ----------------------------
     // อัพเดท UI
     // ----------------------------
-    void RefreshUI()
-    {
-        hpText.text = "HP : " + stats.currentHP + "/" + stats.maxHP;
-        attackText.text = "ATK : " + stats.attackDamage;
-    }
+    // void RefreshUI()
+    // {
+    //     hpText.text = "HP : " + stats.currentHP + "/" + stats.maxHP;
+    //     attackText.text = "ATK : " + stats.attackDamage;
+    // }
 }

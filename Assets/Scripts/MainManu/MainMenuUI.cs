@@ -15,7 +15,11 @@ public class MainMenuUI : MonoBehaviour
 
     [Header("Character UI")]
     public Image portraitImage;
+    public TextMeshProUGUI hpText;
     public TextMeshProUGUI nameText;
+    public TextMeshProUGUI atkText;
+    public TextMeshProUGUI skillText;
+    public TextMeshProUGUI passiveText;
 
     private int characterIndex = 0;
     private CharacterSpecSO pickedCharacter = null;
@@ -60,6 +64,12 @@ public class MainMenuUI : MonoBehaviour
             portraitImage.sprite = c.portraits[0];
         else
             portraitImage.sprite = null;
+
+        hpText.text = "HP : " + c.maxHP;
+        atkText.text = "ATK :" + c.baseDamage;
+        skillText.text = "Skill :" + c.skillDescription;
+        passiveText.text = "Passive : " + c.passiveDescription;
+
     }
 
     // --------------------------

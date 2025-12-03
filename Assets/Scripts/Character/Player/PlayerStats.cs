@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour
     public int maxHP = 100;
     public int currentHP = 100;
     public int attackDamage = 5;
-    public float moveSpeed = 3f;
+    public float moveSpeed;
     public int level = 1;
     public float skillCooldown = 3f;
     public HealthBar healthBar;

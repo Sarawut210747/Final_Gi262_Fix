@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Human
   m_EditorClassIdentifier: 
   type: 2
+  passiveSkill: {fileID: 0}
   maxHP: 500
-  moveSpeed: 2
+  moveSpeed: 1000
   baseDamage: 10
+  skillDescription: 
+  passiveDescription: 
   skillCooldown: 5
   displayName: Golem
   portraits:

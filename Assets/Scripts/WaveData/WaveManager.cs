@@ -1,5 +1,7 @@
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WaveManager : MonoBehaviour
 {
@@ -40,7 +42,7 @@ public class WaveManager : MonoBehaviour
     {
         if (index >= waves.Length)
         {
-            Debug.Log("All waves complete!");
+            SceneManager.LoadScene("EndCredit");
             return;
         }
 

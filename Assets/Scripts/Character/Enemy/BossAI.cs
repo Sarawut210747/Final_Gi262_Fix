@@ -20,7 +20,8 @@ public class BossAI : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // player = GameObject.FindGameObjectsWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
 
     private void Update()
