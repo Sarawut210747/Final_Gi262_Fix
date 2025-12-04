@@ -2943,6 +2943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadows of the Crown
       objectReference: {fileID: 0}
+    - target: {fileID: 5996233466153865227, guid: f399d1ce5a336774abee39714233bcba,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 6432527366607237038, guid: f399d1ce5a336774abee39714233bcba,
         type: 3}
       propertyPath: m_LocalPosition.x
